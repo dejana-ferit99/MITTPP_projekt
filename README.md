@@ -15,11 +15,11 @@ For testing we were using [eKupi webshop](https://www.ekupi.hr/).
 
 ## Katalon Recorder & Studio - Selenium test generator
 ![alt text](https://automated-360.com/wp-content/uploads/2017/10/logo-katalon.png) \
-Katalon Recorder is used for recording test cases. Katalon Studio performs test cases execution and allows exporting test cases in C#(WebDriver+NUnit) format suitable for further testing in Visual Studio.
+Katalon Recorder is used for recording test cases. Katalon Studio performs test cases execution and allows exporting test cases in C# (WebDriver+NUnit) format suitable for further testing in Visual Studio.
 
 ## Visual Studio
 
-If in order to use testing cases that are inported from Katalon Studio, we need to add these NuGet packages:
+In order to use testing cases that are imported from Katalon Studio, we need to add these NuGet packages:
 - NUnit framework
 - Selenium WebDriver 
 - Selenium Support
@@ -29,10 +29,10 @@ If in order to use testing cases that are inported from Katalon Studio, we need 
 ## Process
 - Firstly, we need to prepare softwares that we'll be using. 
 - After that, we need to see what are the elements that should be tested and write documentation for test cases that we will be executing. 
-- Install Katalon Recorder browser plug in for Google search, other search engines couuld also be used such as Mozilla Firefox.
+- Install Katalon Recorder browser plug in for Google search, other search engines could also be used such as Mozilla Firefox.
 - We will start Katalon Recorder. Click "Record" button to start recording session and now we have to do all the steps that need to be done in order to complete the action that we want to test. After we are done, stop recording.
 - We will check the steps and run script.
-- Scritp needs to be exported in C# format.
+- Script needs to be exported in C# format.
 - Now, we will open Visual Studio and we have to create C# Unit Test (.NET Framework) project.
 - After opening Visual Studio, follow these steps: Project -> Manage NuGet Packages and install:
   - NUnit framework 
